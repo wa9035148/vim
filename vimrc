@@ -1,6 +1,7 @@
 "molokai color scheme
 colorscheme molokai
 syntax on
+set t_Co=256
 
 "air line setting"
 set laststatus=2
