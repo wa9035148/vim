@@ -19,3 +19,6 @@
 [submodule "pydoc.vim"]
 	path = pydoc.vim
 	url = https://github.com/vim-scripts/pydoc.vim.git
+[submodule "bundle/pydoc"]
+	path = bundle/pydoc
+	url = https://github.com/vim-scripts/pydoc.vim.git
