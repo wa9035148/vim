@@ -48,6 +48,7 @@ set noswapfile
 "tab == 2spaces"
 set expandtab
 set shiftwidth=2
+set tabstop=2
 "Linebreak on 79 characters"
 set lbr
 set tw=79
@@ -55,6 +56,8 @@ set ai
 set si
 "Extend search"
 set incsearch
+"Show line number"
+set nu
 
 
 
