@@ -22,6 +22,3 @@
 [submodule "bundle/pydoc"]
 	path = bundle/pydoc
 	url = https://github.com/vim-scripts/pydoc.vim.git
-[submodule "syntastic"]
-	path = syntastic
-	url = https://github.com/scrooloose/syntastic.git
