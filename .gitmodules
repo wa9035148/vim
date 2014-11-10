@@ -25,3 +25,6 @@
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = https://github.com/scrooloose/syntastic
+[submodule "bundle/robot"]
+	path = bundle/robot
+	url = https://github.com/mfukar/robotframework-vim.git

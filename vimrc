@@ -24,6 +24,7 @@ set tags=tags;
 "complete setting"
 filetype on
 filetype plugin indent on
+set omnifunc=syntaxcomplete#Complete
 
 "SuperTab setting"
 let g:SuperTabRetainCompletionType=2
