@@ -28,3 +28,6 @@
 [submodule "bundle/robot"]
 	path = bundle/robot
 	url = https://github.com/mfukar/robotframework-vim.git
+[submodule "bundle/emmet-vim"]
+	path = bundle/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git
