@@ -60,6 +60,18 @@ set incsearch
 "Show line number"
 set nu
 
-
-
+"*************************Cscope Setting************************"
+"A couple of very commonly used cscope queries (using :cs find) is to
+"find all functions calling a certain function and to find all occurrences
+"of a particular C symbol.  To do this, you can use these mappings as an
+"example: >"
+"
+nmap <C-_>s :cs find s <C-R>=expand("<cword>")<CR><CR>
+nmap <C-_>g :cs find g <C-R>=expand("<cword>")<CR><CR>
+nmap <C-_>c :cs find c <C-R>=expand("<cword>")<CR><CR>
+nmap <C-_>t :cs find t <C-R>=expand("<cword>")<CR><CR>
+nmap <C-_>e :cs find e <C-R>=expand("<cword>")<CR><CR>
+nmap <C-_>f :cs find f <C-R>=expand("<cfile>")<CR><CR>
+nmap <C-_>i :cs find i ^<C-R>=expand("<cfile>")<CR>$<CR>
+nmap <C-_>d :cs find d <C-R>=expand("<cword>")<CR><CR>
 
