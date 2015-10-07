@@ -82,3 +82,8 @@ nmap <C-_>f :cs find f <C-R>=expand("<cfile>")<CR><CR>
 nmap <C-_>i :cs find i ^<C-R>=expand("<cfile>")<CR>$<CR>
 nmap <C-_>d :cs find d <C-R>=expand("<cword>")<CR><CR>
 
+
+
+"*******************************php complete**********************"
+autocmd FileType php setlocal omnifunc=phpcomplete_extended#CompletePHP
+let g:SuperTabDefaultCompletionType = "<C-x><C-O>"
