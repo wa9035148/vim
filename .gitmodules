@@ -13,9 +13,6 @@
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
-[submodule "vim-pathogen"]
-	path = vim-pathogen
-	url = https://github.com/tpope/vim-pathogen
 [submodule "pydoc.vim"]
 	path = pydoc.vim
 	url = https://github.com/vim-scripts/pydoc.vim.git
@@ -31,3 +28,6 @@
 [submodule "bundle/emmet-vim"]
 	path = bundle/emmet-vim
 	url = https://github.com/mattn/emmet-vim.git
+[submodule "bundle/surround"]
+	path = bundle/surround
+	url = https://github.com/tpope/vim-surround.git
