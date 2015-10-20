@@ -6,7 +6,7 @@ set t_Co=256
 "air line setting"
 set laststatus=2
 
-"NERDtree Setting"
+""NERDtree Setting"
 let g:NERDTreeWinSize=30
 nmap ,n :NERDTreeToggle<CR>
 
@@ -15,8 +15,8 @@ let g:tagbar_width = 30
 nmap ,t :TagbarToggle<CR>
 
 "pathogen setting"
-execute pathogen#infect()
-execute pathogen#helptags()
+"execute pathogen#infect()
+"execute pathogen#helptags()
 
 "ctags setting"
 set tags=tags;
@@ -87,3 +87,11 @@ nmap <C-_>d :cs find d <C-R>=expand("<cword>")<CR><CR>
 "*******************************php complete**********************"
 autocmd FileType php setlocal omnifunc=phpcomplete_extended#CompletePHP
 let g:SuperTabDefaultCompletionType = "<C-x><C-O>"
+
+
+
+"************** auto complete parenthesis ****************"
+":inoremap ( ()<Esc>i
+":inoremap { {}<Esc>i
+":inoremap [ []<Esc>i
+":inoremap " ""<Esc>i
