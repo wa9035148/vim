@@ -15,8 +15,8 @@ let g:tagbar_width = 30
 nmap ,t :TagbarToggle<CR>
 
 "pathogen setting"
-"execute pathogen#infect()
-"execute pathogen#helptags()
+execute pathogen#infect()
+execute pathogen#helptags()
 
 "ctags setting"
 set tags=tags;
