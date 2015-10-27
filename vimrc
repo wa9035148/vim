@@ -14,6 +14,9 @@ nmap ,n :NERDTreeToggle<CR>
 let g:tagbar_width = 30
 nmap ,t :TagbarToggle<CR>
 
+"show marks"
+nmap ,m :marks<CR>
+
 "pathogen setting"
 execute pathogen#infect()
 execute pathogen#helptags()
