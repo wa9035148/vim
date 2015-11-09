@@ -7,7 +7,7 @@ set t_Co=256
 set laststatus=2
 
 ""NERDtree Setting"
-let g:NERDTreeWinSize=30
+let g:NERDTreeWinSize=40
 nmap ,n :NERDTreeToggle<CR>
 
 "tagbar auto open"
@@ -97,4 +97,5 @@ let g:SuperTabDefaultCompletionType = "<C-x><C-O>"
 ":inoremap ( ()<Esc>i
 ":inoremap { {}<Esc>i
 ":inoremap [ []<Esc>i
-":inoremap " ""<Esc>i
+"
+"
