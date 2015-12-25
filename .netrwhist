@@ -1,4 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/home/user/bluechip_wireless_eval_v7/ntt-f'
 let g:netrw_dirhist_2='/home/wang/bcwsdk_software_master/contiki/tools'
+let g:netrw_dirhist_3='/usr/local/sbin'
+let g:netrw_dirhist_4='/home/wang/bcwsdk_software_master/cpu/stm32f100/dev'
+let g:netrw_dirhist_5='/home/wang/bcwsdk_doc_command/bcwsdk_doc_command_jp'

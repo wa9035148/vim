@@ -7,7 +7,7 @@ set t_Co=256
 set laststatus=2
 
 ""NERDtree Setting"
-let g:NERDTreeWinSize=40
+let g:NERDTreeWinSize=30
 nmap ,n :NERDTreeToggle<CR>
 
 "tagbar auto open"
