@@ -55,7 +55,7 @@ set tabstop=2
 
 "--------------------------color scheme-----------------------
 "molokai color scheme
-colorscheme molokai
+colorscheme lucius
 set t_Co=256
 
 
@@ -82,6 +82,9 @@ set tags=tags;
 "SuperTab setting"
 let g:SuperTabRetainCompletionType=2
 let g:SuperTabDefaultCompletionType="<C-X><C-O>"
+
+"indentLine
+let g:indentLine_enable=1
 
 
 "----------------------------keyboard map --------------------------------

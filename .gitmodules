@@ -37,3 +37,12 @@
 [submodule "bundle/vim-javascriptindent"]
 	path = bundle/vim-javascriptindent
 	url = https://github.com/vim-scripts/JavaScript-Indent
+[submodule "bundle/indentLine"]
+	path = bundle/indentLine
+	url = https://github.com/Yggdroot/indentLine
+[submodule "colors/lucius"]
+	path = colors/lucius
+	url = https://github.com/jonathanfilip/lucius
+[submodule "colors/vim-lucius"]
+	path = colors/vim-lucius
+	url = https://github.com/jonathanfilip/vim-lucius
