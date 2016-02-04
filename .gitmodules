@@ -34,3 +34,6 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/vim-javascriptindent"]
+	path = bundle/vim-javascriptindent
+	url = https://github.com/vim-scripts/JavaScript-Indent

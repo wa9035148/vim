@@ -1,21 +1,76 @@
+"----------------------basic setting--------------------
+"highlight syntax
+syntax on
+
+"Show line number"
+set nu
+
+"not compatible with vi
+set nocompatible
+
+"detect file types and load plugins for them
+filetype on
+filetype plugin on
+filetype indent on
+
+"When a file is changed from outside"
+set autoread
+
+"using backspace to delete line breaks, automatically-inserted indentation
+set backspace=indent,eol,start
+
+
+"moving between split windows"
+map <C-k> <C-W>k
+map <C-h> <C-W>h
+map <C-j> <C-W>j
+map <C-l> <C-W>l
+
+"Extend search"
+set incsearch
+
+"wrap without linebreak"
+set wrap
+set linebreak 
+set nolist 
+set textwidth=0
+set wrapmargin=0
+
+
+"Set 7 lines to the cursor - when moving with j k"
+set so=7
+
+"Higlight search results"
+set hlsearch
+
+"Turn back off"
+set nobackup
+set nowb
+set noswapfile
+
+"tab == 2spaces"
+set expandtab
+set shiftwidth=2
+set tabstop=2
+
+"--------------------------color scheme-----------------------
 "molokai color scheme
 colorscheme molokai
-syntax on
 set t_Co=256
 
+
+"---------------------------plugin settings----------------------
 "air line setting"
 set laststatus=2
 
 ""NERDtree Setting"
 let g:NERDTreeWinSize=30
 nmap ,n :NERDTreeToggle<CR>
+let g:NERDTreeDirArrows=0
 
 "tagbar auto open"
 let g:tagbar_width = 30
 nmap ,t :TagbarToggle<CR>
-
-"show marks"
-nmap ,m :marks<CR>
 
 "pathogen setting"
 execute pathogen#infect()
@@ -24,50 +79,21 @@ execute pathogen#helptags()
 "ctags setting"
 set tags=tags;
 
-"complete setting"
-filetype on
-filetype plugin indent on
-set omnifunc=syntaxcomplete#Complete
-
 "SuperTab setting"
 let g:SuperTabRetainCompletionType=2
 let g:SuperTabDefaultCompletionType="<C-X><C-O>"
 
-""****************** Vim settings *****************"
-"moving between split windows"
-map <C-k> <C-W>k
-map <C-h> <C-W>h
-map <C-j> <C-W>j
-map <C-l> <C-W>l
-"When a file is changed from outside"
-set autoread
-"Set 7 lines to the cursor - when moving with j k"
-set so=7
-"Higlight search results"
-set hlsearch
-"Turn back off"
-set nobackup
-set nowb
-set noswapfile
-"tab == 2spaces"
-set expandtab
-set shiftwidth=2
-set tabstop=2
-"Linebreak on 79 characters"
-set lbr
-set tw=79
-set ai
-set si
-"Extend search"
-set incsearch
-"Show line number"
-set nu
-"wrap without linebreak"
-set wrap
-set linebreak 
-set nolist 
-set textwidth=0
-set wrapmargin=0
+
+"----------------------------keyboard map --------------------------------
+"show marks"
+nmap ,m :marks<CR>
+
+"auto complete parenthesis
+:inoremap ( ()<Esc>i
+:inoremap { {}<Esc>i
+:inoremap [ []<Esc>i
+:inoremap < <><Esc>i
+:inoremap " <><Esc>i
 
 "*************************Cscope Setting************************"
 " Shortcuts settings"
@@ -87,15 +113,14 @@ set wrapmargin=0
 
 
 
-"*******************************php complete**********************"
+"**********************auto complete**********************"
+"
+" omnifun complete setting"
+set omnifunc=syntaxcomplete#Complete
+
+"php settings
 autocmd FileType php setlocal omnifunc=phpcomplete_extended#CompletePHP
 let g:SuperTabDefaultCompletionType = "<C-x><C-O>"
 
 
 
-"************** auto complete parenthesis ****************"
-":inoremap ( ()<Esc>i
-":inoremap { {}<Esc>i
-":inoremap [ []<Esc>i
-"
-"
