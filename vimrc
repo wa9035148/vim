@@ -55,13 +55,20 @@ set tabstop=2
 
 "--------------------------color scheme-----------------------
 "molokai color scheme
-colorscheme lucius
+"colorscheme lucius
+colorscheme molokai
 set t_Co=256
 
-
 "---------------------------plugin settings----------------------
+"buffergator
+let g:buffergator_viewport_split_policy="B"
+nmap ,b :BuffergatorToggle<CR>
+
 "air line setting"
 set laststatus=2
+
+"SyntasticCheck 
+nmap ,s :SyntasticToggleMode<CR>
 
 ""NERDtree Setting"
 let g:NERDTreeWinSize=30
@@ -80,23 +87,27 @@ execute pathogen#helptags()
 set tags=tags;
 
 "SuperTab setting"
-let g:SuperTabRetainCompletionType=2
-let g:SuperTabDefaultCompletionType="<C-X><C-O>"
+"let g:SuperTabRetainCompletionType=2
+let g:SuperTabDefaultCompletionType="context "
+let g:SuperTabClosePreviewOnPopupClose = 1
 
 "indentLine
 let g:indentLine_enable=1
 
+"syntastic
+let g:syntastic_enable_verilog_checker=0
+
+"autoclose pair
+let g:AutoClosePairs_del = "` ' <"
 
 "----------------------------keyboard map --------------------------------
 "show marks"
-nmap ,m :marks<CR>
+nmap ,m :CtrlP<CR>
 
 "auto complete parenthesis
 :inoremap ( ()<Esc>i
 :inoremap { {}<Esc>i
 :inoremap [ []<Esc>i
-:inoremap < <><Esc>i
-:inoremap " <><Esc>i
 
 "*************************Cscope Setting************************"
 " Shortcuts settings"
