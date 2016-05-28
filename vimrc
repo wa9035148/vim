@@ -102,7 +102,10 @@ let g:AutoClosePairs_del = "` ' <"
 
 "----------------------------keyboard map --------------------------------
 "show marks"
-nmap ,m :CtrlP<CR>
+nmap ,m :marks<CR>
+
+"show CtrlP"
+nmap ,f :CtrlP<CR>
 
 "auto complete parenthesis
 :inoremap ( ()<Esc>i
