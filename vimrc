@@ -66,6 +66,11 @@ nmap ,b :BuffergatorToggle<CR>
 
 "air line setting"
 set laststatus=2
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
+
+"fzf
+set rtp+=~/.fzf
 
 "SyntasticCheck 
 nmap ,s :SyntasticToggleMode<CR>
@@ -105,7 +110,7 @@ let g:AutoClosePairs_del = "` ' <"
 nmap ,m :marks<CR>
 
 "show CtrlP"
-nmap ,f :CtrlP<CR>
+nmap ,f :FZF<CR>
 
 "auto complete parenthesis
 :inoremap ( ()<Esc>i
