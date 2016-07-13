@@ -106,6 +106,10 @@ let g:syntastic_enable_verilog_checker=0
 let g:AutoClosePairs_del = "` ' <"
 
 "----------------------------keyboard map --------------------------------
+"moving between buffer"
+map <C-m> :bn<CR>
+map <C-n> :bp<CR>
+
 "show marks"
 nmap ,m :marks<CR>
 
