@@ -52,6 +52,7 @@ set noswapfile
 set expandtab
 set shiftwidth=2
 set tabstop=2
+autocmd FileType make setlocal noexpandtab
 
 "--------------------------color scheme-----------------------
 "molokai color scheme
