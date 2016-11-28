@@ -8,7 +8,7 @@ endif
 let b:did_ftplugin = 1
 
 augroup filetypedetect
-	au! BufRead,BufNewFile *.v,*.vh,*.sv,*.svh setfiletype systemverilog
+	au! BufRead,BufNewFile *.svp,*.VP,*.vp,*.v,*.vh,*.sv,*.svh setfiletype systemverilog
 augroup END
 
 " Undo the plugin effect
