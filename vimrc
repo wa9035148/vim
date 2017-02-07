@@ -19,6 +19,9 @@ set autoread
 "using backspace to delete line breaks, automatically-inserted indentation
 set backspace=indent,eol,start
 
+"disale ycm"
+"let g:loaded_youcompleteme = 1
+
 
 "moving between split windows"
 map <C-k> <C-W>k
@@ -35,7 +38,6 @@ set linebreak
 set nolist 
 set textwidth=0
 set wrapmargin=0
-
 
 "Set 7 lines to the cursor - when moving with j k"
 set so=7
