@@ -46,3 +46,9 @@
 [submodule "bundle/verilog_systemverilog"]
 	path = bundle/verilog_systemverilog
 	url = https://github.com/vhda/verilog_systemverilog.vim
+[submodule "bundle/tabular.git"]
+	path = bundle/tabular.git
+	url = git://github.com/godlygeek/tabular.git
+[submodule "bundle/rainbow"]
+	path = bundle/rainbow
+	url = https://github.com/luochen1990/rainbow

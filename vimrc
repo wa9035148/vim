@@ -21,6 +21,10 @@ set backspace=indent,eol,start
 
 "disale ycm"
 "let g:loaded_youcompleteme = 1
+"
+
+"Enable rainbow
+let g:rainbow_active = 1
 
 
 "moving between split windows"
