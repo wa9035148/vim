@@ -20,7 +20,7 @@ if !hasmapto('<Plug>VerilogEmacsAutoAdd')
    "map <unique> <C-A> <Plug>VerilogEmacsAutoAdd
 endif
 if !hasmapto('<Plug>VerilogEmacsAutoDelete')
-   map <unique> <Leader>d <Plug>VerilogEmacsAutoDelete
+   map <unique> <Leader>u <Plug>VerilogEmacsAutoDelete
    "map <unique> <C-D> <Plug>VerilogEmacsAutoDelete
 endif
 
